@@ -1,0 +1,27 @@
+<section class="hero is-dark is-medium">
+  
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <img src="../../../assets/marteattacklogo.png" width="640" height="520">
+    </div>
+  </div>
+
+  <!-- Hero footer: will stick at the bottom -->
+  <div class="hero-foot">
+    <nav class="tabs is-boxed is-fullwidth">
+      <div class="container menuCenter">
+        <ul>
+          <li [ngClass]="{'is-active': rota=='/'}"><a [routerLink]="'/'">home</a></li>
+          <li [ngClass]="{'is-active': rota=='/sobre'}"><a [routerLink]="'/sobre'">Sobre</a></li>
+          <li><a href="http://www.mediafire.com/file/y2lo097020e16qo/Marte+Attack+M%C3%BAsicas.rar" target="_black">Download</a></li>
+          <!--
+          <li [ngClass]="{'is-active': rota=='/download'}"><a [routerLink]="'/download'">Download</a></li>
+          -->
+          <li [ngClass]="{'is-active': rota=='/contato'}"><a [routerLink]="'/contato'">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</section>
